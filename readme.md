@@ -35,7 +35,8 @@
 ```text
 usage: banner-creator.py [-h] [-t <text>] [-i <file_path>] [-g <float>] [-p <file_path>] [-s] [-r]
 
-Banner Creator, a python CLI tools that help you to create banners
+Banner Creator - A Python CLI tool that converts images and text into ASCII art and safely integrates them as Linux
+terminal startup banners (~/.bashrc).
 
 options:
   -h, --help            show this help message and exit
@@ -44,7 +45,8 @@ options:
   -i <file_path>, --image <file_path>
                         File path to the image you want to use as a banner
   -g <float>, --gamma <float>
-                        Manually set the gamma value to adjust brightness. Use > 1.0 to darken (increase contrast) or < 1.0 to brighten. This overrides the auto-detection.
+                        Manually set the gamma value to adjust brightness. Use > 1.0 to darken (increase contrast) or
+                        < 1.0 to brighten. This overrides the auto-detection.
   -p <file_path>, --plain-text <file_path>
                         File path to a plain_text text file used as a startup message for new terminal sessions
   -s, --set-banner      Set the generated outputs as terminal banner
