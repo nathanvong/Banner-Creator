@@ -6,7 +6,7 @@ import argparse
 import platform
 import os
 
-parser = argparse.ArgumentParser(description = "Banner Creator, a python CLI tools that help you to create banners")
+parser = argparse.ArgumentParser(description = "Banner Creator - A Python CLI tool that converts images and text into ASCII art and safely integrates them as Linux terminal startup banners (~/.bashrc).")
 
 parser.add_argument("-t", "--title", type = str, metavar = "<text>", help = "The text string you want to use as a banner")
 
